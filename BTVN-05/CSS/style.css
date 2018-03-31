@@ -1,0 +1,217 @@
+*{
+	margin: 0 ;
+	padding: 0 ;
+
+}
+.clear{
+	clear: both;
+}
+body{
+	font-family: sans-serif;
+	color: #333;
+}
+
+
+.logo {
+	float: left;
+	width: 11%;
+
+}
+.logo img {
+	margin-top: 30px;
+	width: 300px;
+	height: auto;
+}
+ul {
+	list-style-type: none;
+}
+#menu .main-menu{
+	list-style-type: none;
+    /* background: #bec1d6; */
+    text-align: center;
+    float: right;
+    width: 89%;
+    box-sizing: border-box;
+    padding-left: 442px;
+}
+.sologan {
+	text-align: center;
+}
+
+#menu {
+	background-image: url("../img/banner.jpg");
+	height: 400px;
+}
+
+#menu ul li{
+	color: #f1f1f1;
+	float: left;
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+}
+
+
+#menu img {
+	width: 150px;
+	height: 150px
+}
+
+#menu ul li a{
+	
+	text-decoration: none;
+	display: block;
+}
+
+#menu ul li a:hover {
+	background :#f1f1f1;
+	color: #333;
+}
+
+#menu ul li >.sub-menu{
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover .sub-menu{
+	display: block;
+}
+
+.content p{
+	height: 50px;
+	text-align: center;
+	font-family: arial,sans-serif;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 30px;
+}
+
+.info-1{
+	width: 33.3%;
+	height: 250px;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+.info-2{
+	height: 250px;
+	width: 33.3%;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+.info-3{
+	height: 250px;
+	width: 33.3%;
+	float: left;
+}
+
+.info-1 img ,.info-2 img ,.info-3 img {
+	width: 400px;
+	height: 260px;
+}
+
+.info-1 a ,.info-2 a ,.info-3 a {
+	width: 91px;
+	margin: auto;
+	display: block;
+}
+
+.bridge-1{
+	width: 33.3%;
+	height: 250px;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+.bridge-2{
+	width: 33.3%;
+	height: 250px;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+
+.bridge-3{
+	width: 33.3%;
+	height: 250px;
+	float: left;
+}
+
+.bridge-1 img ,.bridge-2 img ,.bridge-3 img {
+	width: 400px;
+	height: 260px;
+}
+.bridge-1 a,.bridge-2 a,.bridge-3 a{
+	width: 91px;
+	margin: auto;
+	display: block;
+}
+
+
+#footer{
+	background-image: url("../img/sky-line.jpg");
+	height: 400px;
+	margin-top: 60px;
+}
+
+#footer .logo,#footer .connect,#footer .phone{
+	width: 33.3%;
+	float: left;
+	box-sizing: border-box;
+}
+
+#footer .logo .imgs{
+	padding-left: 68px;
+}
+
+
+/*responsive*/
+
+@media screen and (max-width: 768px){
+	.info-1,.info-2,.info-3 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	.bridge-1,.bridge-2,.bridge-3{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	#footer {
+		height: 800px;
+	}
+	#footer .logo,#footer .connect,#footer .phone {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	#footer .logo img{
+		width: 250px;
+		height: 250px;
+		margin-top: 30px
+	}	
+	#footer .connect p,.phone {
+		width: 300px;
+		margin: auto;
+		color: #fff;
+	}
+	#footer .connect p{
+		padding-top: 40px;
+	}
+	p.sologan{
+		padding-left: 30px;
+	}
+	ul.main-menu {
+		padding-left: 69px !important;
+	}
+	#menu .main-menu li {
+		width: 140px;
+	}
+	#menu .sologan{
+	padding-left: 25px;
+    }
+}
